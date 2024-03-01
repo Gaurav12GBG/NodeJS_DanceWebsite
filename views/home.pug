@@ -1,0 +1,52 @@
+extends base.pug 
+ 
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+ 
+    section#introSection 
+        div Welcome to GBG`s Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Missions
+        div.card-container 
+            div.card  
+                h3 Dance Perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/l7.jpg") 
+                    div.card-content 
+                        p This is the best dance academy of the universe
+
+            div.card  
+                h3 Dance the Way You Loke
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/l4.png") 
+                    div.card-content 
+                        p This is the best dance academy of the universe
+
+            div.card  
+                h3 Expert Teaching
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/l5.png") 
+                    div.card-content 
+                        p This is the best dance academy of the universe  
+        
+    section#sponsersSection 
+        h2 Our Sponsers
+        div#sponsers 
+            img(src="/static/img/logo1.jpg", alt="Sponser Image" Class="spImg") 
+            img(src="/static/img/logo2.jpg", alt="Sponser Image" Class="spImg") 
+            img(src="/static/img/logo3.jpg", alt="Sponser Image" Class="spImg") 
+            img(src="/static/img/logo4.jpg", alt="Sponser Image" Class="spImg") 
+               
+   
+        

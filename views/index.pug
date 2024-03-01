@@ -1,0 +1,65 @@
+doctype html
+html
+    head 
+        style
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul 
+                div#logo 
+                    img(src="/static/img/l3.png")
+                    | HDA
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us]
+        
+        section#introSection 
+            div Welcome to GBG`s Dance Academy 
+            div.small Eat Sleep Dance Repeat
+
+        section#missionSection 
+            h2 Our Missions
+            div.card-container 
+                div.card  
+                    h3 Dance Perfection
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/img/l7.jpg") 
+                        div.card-content 
+                        p This is the best dance academy of the universe
+
+                div.card  
+                    h3 Dance the Way You Loke
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/img/l4.png") 
+                        div.card-content 
+                        p This is the best dance academy of the universe
+
+                div.card  
+                    h3 Expert Teaching
+                    div.card-box 
+                        div.card-img 
+                            img(src="/static/img/l5.png") 
+                        div.card-content 
+                        p This is the best dance academy of the universe  
+        
+        section#sponsersSection 
+            h2 Our Sponsers
+            div#sponsers 
+                img(src="/static/img/logo1.jpg", alt="Sponser Image" Class="spImg") 
+                img(src="/static/img/logo2.jpg", alt="Sponser Image" Class="spImg") 
+                img(src="/static/img/logo3.jpg", alt="Sponser Image" Class="spImg") 
+                img(src="/static/img/logo4.jpg", alt="Sponser Image" Class="spImg") 
+               
+        
+        footer#footer 
+             | Copyright © 2019 GBG`sDanceAcademy.com | All Rights Reserved 
+        
+        script 
+          include ../static/index.js
+
+        script 
+            include ../static/index.js
